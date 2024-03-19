@@ -23,7 +23,7 @@ try:
         links = soup.find_all('a')
 
         # Nombre del archivo que deseas buscar
-        file_to_find = 'flag.txt'
+        file_to_find = 'https://urllib3.readthedocs.io/en/latest/_static/dark-logo.svg'
 
         # Iterar sobre los enlaces para encontrar el enlace al archivo deseado
         for link in links:
